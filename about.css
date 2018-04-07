@@ -1,0 +1,168 @@
+body{
+	font-family: arial, roboto;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#Maindiv{
+	width:100%;
+	height:666px;
+	background-image: url(img/color.jpg);
+	background-size: cover;
+}
+#navdiv{
+	opacity: 0.7;
+	filter: (opacity=70);
+}
+#navdiv ul{
+	width: 100%;
+	height: 80px;
+	background:#651124;
+	line-height: 80px;
+	color: white;
+	margin-right: 15px;
+}
+#navdiv ul a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+#navdiv ul li{
+list-style-type: none;
+display: inline-block;
+float: right;
+}
+#navdiv ul li:hover{
+	background: gray;
+	transition:all 0.4%;
+}
+h1{
+	color:white;
+	margin-top:5px;
+	font-size: 300%;
+	padding-left: 3%;
+}
+#navdiv h1{
+	width: 300px;
+	float: left;
+	cursor: pointer;
+	margin-left: 15px;
+}
+.header-image{
+  height: 50vh;
+  width: 100%;
+}
+.image{
+  position: absolute;
+  background-image: url(img/library.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+}
+.image-overlay{
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  background-color:gray;
+  opacity: 0.4;
+}
+.text1{
+  position: absolute;
+  color:black;
+  text-align: center;
+  padding-left: 150px;
+  padding-top: 3%;
+  font-family: sans-serif;
+}
+.search{
+	width: 70%;
+	padding-right: 10%;
+	text-align: center;
+	padding-left: 300px;
+	padding-top: 20%;
+	height: 20px;
+}
+.search input{
+	width: 90%;
+	height: 40px;
+	padding-left: 10%;
+	
+}
+.search button{
+	width:30%;
+	border: 5px solid transparent;
+    opacity: 0.6;
+	color: black;
+    height: 25px;
+    text-align: center;
+	position: relative;
+	
+}
+
+.content{
+	padding-left:2%;
+	text-align: center;
+}
+h2{
+	font-size: 300%;
+	color: brown;
+	padding-right: 5%;
+}
+h3{
+	font-size: 150%;
+	color: brown;
+	padding-right: 5%;
+}
+p{
+	padding-right:10%;
+	font-size: 100%;
+
+}
+.Subscribe{
+	width: 30%;
+	padding-right: 5%;
+	text-align: right;
+	float: right;
+}
+.Subscribe input{
+	width: 70%;
+}
+.Subscribe button{
+	width:50%;
+	background-color: white;
+}
+a{
+  text-decoration-line: none;
+  color: white; 
+}
+button {
+  margin-top: 2%;
+  background-color: #a991d4;
+  border: 5px solid transparent;
+  opacity: 0.6;
+  padding-left: 2%;
+  padding-right: 4%;
+  width: 20%;
+}
+.col {
+	position: absolute;
+	margin: 2%;
+	color: white;
+	float: right;
+}
+footer {
+	background-color:#651124;
+	color: white;
+	font-size: 1em;
+	height: 20vh;
+	padding-left: 2%;
+}
+.text2 {
+	color:white;
+}
+.h4{
+	color: white;
+}
