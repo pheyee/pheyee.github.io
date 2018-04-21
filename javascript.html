@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my page</title>
+</head>
+<body>
+<script>
+	document.write('<h1>This is my first Javascript Page</h1>');
+    window.prompt('Enter your name:','');
+    
+    function giveMessage('name,location){
+    	window.alert('hello' + name + 'is form'+ location);
+    }
+    
+    function printValue (){
+    var name = document.addressform.name.value;
+    var phone = document.addressform.phone.value;
+    var email = document.adressform.email.value;
+    	window.alert('hello ' + name +' here is your phone number;' + phone +' and email is' + email);
+    }
+   </script>
+
+<input type="button" value="press" onclick="window.alert('Hello Girlcode');">
+<input type="button" value="Get name" onclick="giveMessage ('Adeola Haruna');">
+
+<p>
+	<a href="myfile.html">My Page</a>
+</p>
+	<br/>
+	<a href="myfile.html"
+	onmouseover="window.alert('Hello');" My Page </a>
+<form name="addressform">
+	name:  <input name="name"><br/>
+	phone: <input name="phone"><br/>
+	Email: <input name="email"><br/>
+	<input type="submit" value="Go" onclick="printValue();">
+</form>
+</body>
+</html>

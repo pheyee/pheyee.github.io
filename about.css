@@ -32,6 +32,12 @@ body{
 list-style-type: none;
 display: inline-block;
 float: right;
+position: relative;
+padding-right: 5%;
+
+
+
+
 }
 #navdiv ul li:hover{
 	background: gray;
@@ -165,4 +171,19 @@ footer {
 }
 .h4{
 	color: white;
+}
+p.copyright{
+	color:white;
+    font-size: 1em;
+	text-align: center;
+	background-color: #651124;
+	background-size: 20%;
+	padding-left: 10%;
+}
+.footerContainer {
+	background-color:#651124;; 
+	
+	width: 100%;
+	
+	
 }

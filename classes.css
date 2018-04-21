@@ -1,0 +1,103 @@
+body{
+  margin: 0%;
+}
+{
+  body-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 100vh;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+  height: 10vh;
+  border:1px solid transparent;
+  box-shadow: 0px 2px 20px 0px grey;
+  padding: 5px
+}
+.logo{
+  width: 20%
+  padding-left:5%;
+}
+.menu{
+  width: 50%;
+  padding-left: 15%;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3% 33.3%;
+}
+.search{
+  width: 50%
+  padding-right: 5%
+}
+.search input{
+  width: 70%;
+}
+.search button{
+  width: 30%;
+}
+.header-image{
+  height: 40vh;
+  width: 100%;
+}
+.image{
+  position: absolute;
+  background-image: url(img/9jafood.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: inherit;
+  height: inherit;
+}
+.image-overlay{
+  width: inherit;
+  height: inherit;
+  position:absolute;
+  background-color:black;
+  opacity: 0.6;
+}
+.text{
+  position: absolute;
+  color:white;
+  font-family: sans-serif;
+}
+.column{
+  float: left;
+  width: 50%;
+  padding: 10%;
+}
+.row{
+  display: flex;
+  background-color: green;
+}
+.column{
+  flex: 50%
+}
+.column{
+  float: left;
+  width: 25%;
+  padding: 10%;
+}
+.row2{
+ display:flex;
+ background-color:white;
+ grid-template-columns: 25% 25%;
+ overflow: scroll;
+}
+.column{
+  float: left;
+  width: 25%;
+  padding: 2%;
+}
+a {
+  text-decoration-line: none;
+}
+button {
+  margin-top: 2%;
+  background-color: blue;
+}
+.column {
+  text-align: right;
+}
